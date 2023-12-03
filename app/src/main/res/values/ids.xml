@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvCourseDetails" type="id">coursedetails</item>
+    <item name="tvCourseCode" type="id">coursecode</item>
+    <item name="tvCourseName" type="id">coursename</item>
+    <item name="tvPrerequisite" type="id">prerequisite</item>
+    <item name="tvCredits" type="id">credits</item>
+</resources>

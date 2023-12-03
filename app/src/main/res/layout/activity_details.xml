@@ -23,41 +23,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="TextView"
+        android:text="@string/name"
         android:textAlignment="textStart"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintHorizontal_bias="0.115"
         app:layout_constraintStart_toEndOf="@+id/ivProfile"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.128" />
 
     <TextView
         android:id="@+id/tvEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="205dp"
+        android:layout_height="26dp"
         android:clickable="true"
-        android:text="TextView"
+        android:focusable="true"
+        android:text="@string/email"
+        android:textAlignment="textStart"
+        android:textColor="@color/ucc_blue"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintHorizontal_bias="0.714"
         app:layout_constraintStart_toEndOf="@+id/ivProfile"
-        app:layout_constraintTop_toBottomOf="@+id/tvName"
-        app:layout_constraintVertical_bias="0.082" />
-
+        app:layout_constraintTop_toBottomOf="@+id/tvNumber"
+        app:layout_constraintVertical_bias="0.066" />
 
     <TextView
-        android:id="@+id/tvPhone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:text="Phone"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/tvNumber"
+        android:layout_width="98dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="32dp"
+        android:autoLink="phone"
+        android:text="@string/phone_number"
+        android:textAlignment="textStart"
+        android:textColor="@color/ucc_blue"
+        android:textColorLink="#1A2875"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toEndOf="@+id/ivProfile"
-        app:layout_constraintTop_toBottomOf="@+id/tvName"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
