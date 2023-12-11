@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyUCC"
-        tools:targetApi="30">
+
         <activity
             android:name=".twitter"
             android:exported="false" />

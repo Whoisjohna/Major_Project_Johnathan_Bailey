@@ -1,3 +1,5 @@
+import org.apache.tools.ant.util.JavaEnvUtils.VERSION_1_8
+
 plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
@@ -11,7 +13,7 @@ android {
     defaultConfig {
         applicationId = "com.example.a20141251majorprojectjohnathanbailey"
         minSdk = 34
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -49,7 +51,7 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
-    buildToolsVersion = "30.0.3"
+    buildToolsVersion = "34.0.0"
     ndkVersion = "26.1.10909125"
 }
 

@@ -58,7 +58,7 @@
         android:autoLink="phone"
         android:text="@string/phone_number"
         android:textAlignment="textStart"
-        android:textColor="@color/ucc_blue"
+        android:textColor="@color/black"
         android:textColorLink="#1A2875"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.148"
