@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity(), Parcelable {
             //Method launches Social/fb activity
             val fb: ImageButton = findViewById(fbButton)
             fb.setOnClickListener {
-                val intent = Intent(this, facebook::class.java)
+                val intent = Intent(this, FaceBook::class.java)
                 startActivity(intent)
             }
 
