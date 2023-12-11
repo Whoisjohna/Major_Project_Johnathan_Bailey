@@ -56,21 +56,21 @@ class MainActivity : AppCompatActivity(), Parcelable {
             }
 
             //Method launches Social/Twitter activity
-            val twit: ImageButton = findViewById(twitButton)
+            val twit: ImageButton = findViewById(R.id.twitButton)
             twit.setOnClickListener {
                 val intent = Intent(this, Twitter::class.java)
                 startActivity(intent)
             }
 
             //Method launches Social/fb activity
-            val fb: ImageButton = findViewById(fbButton)
+            val fb: ImageButton = findViewById(R.id.fbButton)
             fb.setOnClickListener {
                 val intent = Intent(this, FaceBook::class.java)
                 startActivity(intent)
             }
 
             //Method launches Social/IG activity
-            val inst: ImageButton = findViewById(igButton)
+            val inst: ImageButton = findViewById(R.id.igButton)
             inst.setOnClickListener {
                 val intent = Intent(this, Instagram::class.java)
                 startActivity(intent)
