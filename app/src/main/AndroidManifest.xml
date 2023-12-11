@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -11,13 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyUCC"
+        android:theme="@style/Theme.MyUCC">
 
         <activity
-            android:name=".twitter"
+            android:name=".Twitter"
             android:exported="false" />
         <activity
-            android:name=".instagram"
+            android:name=".Instagram"
             android:exported="false" />
         <activity
             android:name=".list_item"
@@ -26,10 +25,7 @@
             android:name=".facebook"
             android:exported="false" />
         <activity
-            android:name=".content_scrolling"
-            android:exported="false" />
-        <activity
-            android:name=".course_listing"
+            android:name=".CourseListing"
             android:exported="false" />
         <activity
             android:name=".Social"

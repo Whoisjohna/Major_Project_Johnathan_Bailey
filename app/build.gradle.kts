@@ -5,15 +5,17 @@ plugins {
     id("com.google.gms.google-services")
     id("com.android.application")
 }
-
 android {
+
     namespace = "com.example.a20141251majorprojectjohnathanbailey"
     compileSdk = 34
+
+
 
     defaultConfig {
         applicationId = "com.example.a20141251majorprojectjohnathanbailey"
         minSdk = 34
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -33,8 +35,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = VERSION_1_8
-        targetCompatibility = VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
         jvmTarget = "1.8"

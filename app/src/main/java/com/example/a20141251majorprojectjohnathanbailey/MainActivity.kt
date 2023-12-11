@@ -9,9 +9,7 @@ import android.os.Parcelable
 import android.provider.ContactsContract
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
-import com.example.a20141251majorprojectjohnathanbailey.ui.theme._20141251MajorProjectJohnathanBaileyTheme
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.firebase.firestore.firestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 
@@ -36,22 +34,8 @@ class MainActivity : AppCompatActivity(), Parcelable {
             val viewCourses: ImageButton = findViewById(R.id.courses)
             db.collection("uccdat")
             viewCourses.setOnClickListener {
-                startActivity(Intent(this, course_listing::class.java))
-                // Read from the database
-                //myRef.addValueEventListener(object: ValueEventListener {
+                startActivity(Intent(this, CourseListing::class.java))
 
-                //	override fun onDataChange(snapshot: DataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-                //	val value = snapshot.getValue<String>()
-                //	Log.d(TAG, "Value is: " + value)
-                //}
-
-                //override fun onCancelled(error: DatabaseError) {
-                //	Log.w(TAG, "Failed to read value.", error.toException())
-                //	}
-
-                //})
             }
 
             //Method launches admission requirements webpage
@@ -74,7 +58,7 @@ class MainActivity : AppCompatActivity(), Parcelable {
             //Method launches Social/Twitter activity
             val twit: ImageButton = findViewById(twitButton)
             twit.setOnClickListener {
-                val intent = Intent(this, twitter::class.java)
+                val intent = Intent(this, Twitter::class.java)
                 startActivity(intent)
             }
 
@@ -88,7 +72,7 @@ class MainActivity : AppCompatActivity(), Parcelable {
             //Method launches Social/IG activity
             val inst: ImageButton = findViewById(igButton)
             inst.setOnClickListener {
-                val intent = Intent(this, instagram::class.java)
+                val intent = Intent(this, Instagram::class.java)
                 startActivity(intent)
             }
             //Sends email to preset address when FAB is clicked
