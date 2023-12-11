@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639393573889",
+    "project_id": "uccdat",
+    "storage_bucket": "uccdat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639393573889:android:bf7e621301e5c072072400",
+        "android_client_info": {
+          "package_name": "com.example.a20141251majorprojectjohnathanbailey"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl1gs28Jd-wm_unQbpw64-NNAss2eDXsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
